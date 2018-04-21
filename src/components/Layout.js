@@ -20,6 +20,7 @@ class Layout extends Component {
       <div>
         <Header title={this.state.title} changeTitle={this.changeTitle.bind(this)} />
         <Footer />
+        {this.props.content}
       </div>
     );
   }
